@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'love';
+    src: url(fonts/love\ story\ ttf.ttf) format(truetype);
+}
+
+main{
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    
+}
+
+body{
+    background-image:linear-gradient(to right, white, rgb(89, 89, 216));
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+h1{
+    font-family: 'love';
+    font-size: 5em;
+    background-color: white;
+    text-align: center;
+    text-shadow: 1px 1px 0px rgba(4, 4, 10, 0.37));
+    text-indent: 30px
+}
+
+h2{
+    background-color: rgb(143, 143, 212);
+}
+
+h3{
+    background-color: rgb(82, 190, 185);
+}
+
+.li{
+    background-color: rgb(200, 211, 138);
+}
+
+p{
+    text-align: justify;
+    text-decoration: underline;
+}
+

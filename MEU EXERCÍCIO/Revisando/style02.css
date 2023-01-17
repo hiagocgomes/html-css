@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgba(13, 165, 81, 0.459);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgba(0, 172, 74, 0.808);
+}
+h1#principal{
+    text-align: center;
+    background-color: rgb(139, 189, 139);
+}
+
+h2{
+    color: rgb(32, 39, 35);
+}
+
+.comeco{
+    color: brown;
+}
+
+.final{
+    color: darkgoldenrod;
+}

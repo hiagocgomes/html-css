@@ -30,6 +30,7 @@
             background-color: lightgray;
         }
 
+
         thead, tfoot {
             background-color: gray;
             color: white;
@@ -38,6 +39,15 @@
         td.num {
             text-align: right;
         }
+
+        .none, abbr {
+            text-decoration: none;
+        }
+
+        .none :hover {
+            text-decoration: underline;
+        }
+       
     </style>
 </head>
 <body>
@@ -55,12 +65,12 @@
         <tbody>
             <tr>
                 <td>1</td>
-                <td><abbr title="São Paulo é uma das 27 unidades federativas do Brasil. Está situado na Região Sudeste e tem por limites os estados de Minas Gerais a norte e nordeste" style="text-decoration: none; text-decoration: underline;">São paulo</abbr></td>
+                <td class="none"><abbr title="São Paulo é uma das 27 unidades federativas do Brasil. Está situado na Região Sudeste e tem por limites os estados de Minas Gerais a norte e nordeste">São paulo</abbr></td>
                 <td class="num">41 262 199</td>
             </tr>
             <tr>
                 <td>2</td>
-                <td>Minas Gerais</td>
+                <td class="none"><abbr title="Minas Gerais é uma das 27 unidades federativas do Brasil, sendo o quarto estado com a maior área territorial e o segundo em quantidade de habitantes, localizada na Região Sudeste do país. Limita-se ao sul e sudoeste com São Paulo, a oeste com Mato Grosso do Sul, a noroeste com Goiás e Distrito Federal, a norte e nordeste com a Bahia, a leste com o Espírito Santo e a sudeste com o Rio de Janeiro. Seu território é subdividido em 853 municípios, a maior quantidade dentre os estados brasileiros."  >Minas Gerais</abbr ></td>
                 <td class="num">19 597 330</td>
             </tr>
             <tr>

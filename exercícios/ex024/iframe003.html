@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis doloribus quibusdam iste laboriosam, harum, accusantium quasi pariatur saepe sunt consequatur porro mollitia consequuntur. Officiis architecto reprehenderit, vitae sapiente labore dignissimos.</p>
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="iframe003.html" target="frame">Terceira página</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut amet voluptatem nisi odio impedit magnam omnis vitae. Adipisci dolores repellendus sint nesciunt eum facilis cum. Doloremque sunt accusamus iste esse. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum est repellendus laboriosam, fugiat esse ipsam suscipit aliquid voluptas provident doloremque accusamus porro illo exercitationem ab, distinctio nulla architecto nihil eveniet!</p>
+
+    <iframe id="tela"  name="frame" srcdoc="<h1> Escolha umas das opções acima</h1> <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore deleniti atque facilis unde ducimus, eius voluptatum error aliquam sit officiis, dicta cumque. Possimus tempore laudantium non ea voluptate in est!</p> <img src='imagens/bugdroid.png'>" >
+        <p>Infelizmente seu navegador não é compatível com isso!</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis necessitatibus accusamus mollitia sit odio! Repudiandae molestias eligendi odit sequi, maxime tempora recusandae provident officia! Praesentium vel ullam beatae commodi animi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi reiciendis sed natus blanditiis veniam consequuntur totam magni, iure, pariatur ipsam porro quam veritatis quidem. Animi ipsam consequatur hic est neque?</p>
+    
+</body>
+</html>
